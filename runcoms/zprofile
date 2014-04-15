@@ -75,3 +75,5 @@ if [[ ! -d "$TMPPREFIX" ]]; then
   mkdir -p "$TMPPREFIX"
 fi
 
+# Source boxen
+[ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
