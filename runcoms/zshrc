@@ -34,3 +34,12 @@ alias c2js='coffee -bcp'
 
 # l2js - prints JavaScript from LiveScript file
 alias l2js='lsc -bcp'
+
+# vagrant
+alias v='vagrant'
+alias vu='vagrant up'
+alias vs='vagrant ssh'
+alias vst='vagrant status'
+alias vh='vagrant halt'
+alias vd='vagrant destroy'
+alias vdf='vagrant destroy -f'
