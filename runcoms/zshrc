@@ -11,34 +11,3 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
-
-# Source zsh-notify
-if [[ -s "${ZDOTDIR:-$HOME}/.zsh-notify/notify.plugin.zsh" ]]; then
-  source "${ZDOTDIR:-$HOME}/.zsh-notify/notify.plugin.zsh"
-fi
-
-
-#######################################################################
-#                           custom aliases                            #
-#######################################################################
-
-# utc - prints UTC datetime in ISO format
-alias utc='date -u +"%Y-%m-%dT%H:%M:%SZ"'
-
-# server - starts an HTTP server on the current directory
-alias server='python -m SimpleHTTPServer'
-
-# c2js - prints JavaScript from CoffeeScript file
-alias c2js='coffee -bcp'
-
-# l2js - prints JavaScript from LiveScript file
-alias l2js='lsc -bcp'
-
-# vagrant
-alias v='vagrant'
-alias vu='vagrant up'
-alias vs='vagrant ssh'
-alias vst='vagrant status'
-alias vh='vagrant halt'
-alias vd='vagrant destroy'
-alias vdf='vagrant destroy -f'
