@@ -17,6 +17,11 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zsh-notify/notify.plugin.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zsh-notify/notify.plugin.zsh"
 fi
 
+# Alias hub to git
+if [[ -x "/usr/local/bin/hub" ]]; then
+  alias git=hub
+fi
+
 
 #######################################################################
 #                           custom aliases                            #
