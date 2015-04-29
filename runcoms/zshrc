@@ -15,7 +15,6 @@ fi
 # Source zsh-notify
 if [[ -s "${ZDOTDIR:-$HOME}/.zsh-notify/notify.plugin.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zsh-notify/notify.plugin.zsh"
-  export SYS_NOTIFIER="/usr/bin/terminal-notifier"
 fi
 
 
